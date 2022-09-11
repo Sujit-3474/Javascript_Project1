@@ -1,0 +1,318 @@
+
+
+body{
+    background-color: #3D087B
+}.container
+{
+    height: 70px;
+    width: 200px;
+    /* border:2px solid red; */
+    left:120px;
+    top:30px;
+    position: relative;
+}
+div>img{
+    box-sizing: border-box;
+    height:90px;
+    
+}
+
+.side_container
+{
+    height:100px;
+    width: 420px;
+    position: absolute;
+    display: flex;
+    flex-wrap: row wrap;
+    justify-content: space-around;
+    right:140px;
+    top:50px;
+    /* border:2px solid red; */
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    z-index: 2;
+    align-items: center;
+}
+
+.time{
+    height: 60px;
+    width:55px;
+   font-weight: bold;
+    text-align: center;
+    padding-top:36px;
+    color: #3D087B;
+    font-size:20px;
+}
+
+.time1
+{
+    
+    height: 60px;
+    width:50px;
+    /* border:2px solid red; */
+    background-color: #F6E2FF;
+    text-align: center;
+    padding-top: 10px;
+    padding-left:5px;
+    padding-right: 10px;
+    
+    color:#8A11BF;
+    letter-spacing: 2px;
+    font-size: 22px;
+   
+    
+
+}
+
+.time2
+{
+    
+    height: 60px;
+    width:50px;
+    /* border:2px solid red; */
+    background-image: url("AM_svg.png");
+    color: #FFFFFF;
+    line-height: 60px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 26px;
+
+}
+
+
+.side_container1
+{
+    height:90px;
+    width: 350px;
+    position: absolute;
+    right:175px;
+    top:70px;
+    /* border:2px solid red; */
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    opacity: 0.6 ;
+    z-index: 1;
+}
+.side_container2
+{
+    height:90px;
+    width: 310px;
+    position: absolute;
+    right:195px;
+    top:80px;
+    /* border:2px solid red; */
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    opacity: 0.5 ;
+    z-index: 0;
+}
+
+.message
+{
+   
+    letter-spacing: 3px;
+    height:80px;
+    width: 420px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    position:absolute;
+    right:140px;
+    top: 180px;
+    color:#8E53F0;
+    text-align: center;
+   line-height: 80px;
+   font-size: 20px;
+   font-weight: bold;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+
+.images-view
+{
+    height:350px;
+    width: 430px;
+    position:absolute;
+    right:130px;
+  margin-top:170px;
+
+
+
+}
+
+#girl{
+    margin:0;
+    height:340px;
+    width:420px;
+    display: inline-block;
+    border-radius: 12px;
+    cursor:pointer;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+
+
+
+.drop-down
+{
+    
+        height:350px;
+        width: 600px;
+        position:absolute;
+        left:120px;
+        margin-top:100px;
+        display: flex;
+        flex-direction: column;
+        /* border:2px solid red; */
+        background-color: #FFFFFF;
+        border-radius: 10px;
+        justify-content: space-around;
+        align-items: center;
+       
+    }
+
+    .first
+    {
+       display: flex;
+       justify-content:space-between;
+       flex-direction: row;
+        height:60px;
+        width:580px;
+        /* border: 2px solid red; */
+        align-items: center;
+    }
+    
+    .box1
+    {
+        height:30px;
+        width:30px;
+        box-sizing:content-box;
+        /* border:2px solid red; */
+    }
+
+    .box1>img{
+        height:30px;
+
+    }
+
+    .boxes
+    {
+        height:30px;
+        width:220px;
+        /* border:2px solid red; */
+        text-align: left;
+        padding: 2px;
+        color:#3D087B;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+
+    .drop
+    {
+        width:220px;
+        height:30px;
+        color:#3D087B;
+        border: 1px solid #EDEDED;
+    }
+    
+
+
+
+
+
+    .drop-down2
+{
+    word-spacing: 5px;
+    letter-spacing: 3px;
+        height:60px;
+        width: 600px;
+       text-align: center;
+   font-size: 23px;
+   padding-bottom:10px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        left:120px;
+        position: absolute;
+        
+        margin-top:460px;
+        
+        /* border:2px solid red; */
+        background-color:#EDEDED;
+        opacity: 0.5 ;
+       
+        border-radius: 10px;
+       
+    }
+
+    .vertical
+    {
+        border-left: 2px solid black;
+        height:50px;
+        position:absolute;
+        left: 23px;
+    }
+    .vertical2
+    {
+        border-left: 2px solid black;
+        height:52px;
+        position:absolute;
+        left: 23px;
+        top:60px;
+    }
+    .vertical3
+    {
+        border-left: 2px solid black;
+        height:45px;
+        position:absolute;
+        left: 23px;
+        top:240px;
+    }
+
+
+    .Set_Alarm
+    {
+        height:130px;
+        width: 600px;
+        /* border: 2px solid red;   */
+        position: absolute;
+        left:120px;
+        display:flex;
+        flex-direction: row;
+        justify-content:space-between;
+        margin-top:540px;
+    }
+
+    .button1
+    {
+        margin-top: 10px;
+        height:40px;
+        width: 300px;
+        /* border:2px solid red; */
+        color:#FFFFFF;
+        background-image:linear-gradient(to right,#6E54EC 0%, #CB52F8 25%, #FC5EFF 50%, #F1A7C5 100%);
+        text-align: center;
+        line-height: 40px;
+        font-size: 25px;
+        border-radius: 5px;
+    }
+
+
+    .button1:hover
+    {
+
+        background-image:linear-gradient(to right,#F1A7C5  0%,#FC5EFF  25%, #CB52F8 50%, #6E54EC 100%);
+        content: "Party Time";
+    }
+    .message1
+    {
+        background-color:#EDEDED;
+        color:#3e1442;
+        opacity: 0.5 ;
+        height:95px;
+        width: 250px;
+        /* border:2px solid red; */
+        border-radius: 10px;
+    }
+
+
+   
